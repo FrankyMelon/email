@@ -1,0 +1,127 @@
+<mjml lang="en">
+	<mj-head>
+        <mj-preview>Hello everybody</mj-preview>
+        <mj-font name="Roboto"
+       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" />
+		<mj-attributes>
+			<mj-all font-family="Roboto, Calibri" font-size="16px"/>        
+			<mj-text padding="10px 20px"/>
+            <mj-class name="light_section" background-color="#f0f0f0" padding="5px"/>
+            <mj-class name="sky_section" background-color="#dfecf4" />
+            <mj-class name="dark_section" background-color="#444343" />
+            <mj-class name="header" font-style="bold" font-size="20px" align="center" color="#5a5454" padding="0"/>
+            <mj-class name="button" background-color="#fd843f" color="white" font-weight="bold" border-radius="10px" padding="10px"/>
+            <mj-class name="debug" border="1px solid red"/>
+            
+		</mj-attributes>
+
+        <mj-style>
+            .contacts {
+                margin: 10px auto 0 auto;
+                text-align: left;
+                max-width:200px;
+                display:block;
+                font-size:11px;
+                font-style:italic;
+            }
+            .contacts td {
+                padding-top: 10px;
+                font-size:15px;
+            }
+            .contacts td strong{
+                font-style:normal;
+                padding-right:3px;
+            }
+        </mj-style>        
+	</mj-head>
+	<mj-body width="600px">
+        <mj-raw>Email template example, Wargaming</mj-raw>
+		<mj-section mj-class="light_section">
+			<mj-column>
+				<mj-image width="250px" src="https://i.ibb.co/8DTkrxn/logo-inline.png"></mj-image>
+			</mj-column>
+			<mj-column>
+				<mj-social>
+					<mj-social-element name="instagram" href="#"></mj-social-element>    
+					<mj-social-element name="facebook" href="#"></mj-social-element>
+					<mj-social-element name="linkedin" href="#"></mj-social-element>
+					<mj-social-element name="twitter" href="#"></mj-social-element>      
+					<mj-social-element name="youtube" href="#"></mj-social-element>
+				</mj-social>
+			</mj-column>
+		</mj-section>    
+        <mj-section mj-class="dark_section">
+            <mj-column>
+                <mj-image src="https://i.ibb.co/pX7nHN0/dream-fa1c8b5fa4.gif"></mj-image>
+                <mj-text align="right" color="white">Come, sit, heal.</mj-text>
+            </mj-column>
+        </mj-section>
+		<mj-section mj-class="sky_section">
+			<mj-column>
+				<mj-text mj-class="header">Introduction</mj-text>
+				<mj-text color="#525252">We are aware that on-call care is not available everywhere, which is why it is possible to call an ambulance within 2 hours by car from 6pm to midnight every day. Our rescue service will bring the animal in need of treatment to our clinic. Could the owner not come with it, their pet can stay with them. Our goal is to soon become a 0-24 hospital and provide a full night ambulance service.</mj-text>
+				<mj-button mj-class="button" href="#">Learn more</mj-button>
+			</mj-column>
+		</mj-section>
+        <mj-divider border-width="0.5px" border-style="dashed" border-color="lightgrey" />
+
+		<mj-section background-color="#fbfbfb">
+         
+			<mj-column>
+				<mj-image width="107px" src="https://i.ibb.co/gMDfqz0/org-icon.png"></mj-image>
+                <mj-text  mj-class="header">Organizations</mj-text>
+                <mj-text align="center">For pet care service providers with multiple business locations and distributed teams</mj-text>
+                 
+			</mj-column>
+			<mj-column>
+            
+				<mj-image width="107px" src="https://i.ibb.co/C121m24/business-icon.png"></mj-image>
+                <mj-text mj-class="header">Businesses</mj-text>
+                <mj-text align="center">Professional services with location, multiple categories and small teams</mj-text>
+                 
+			</mj-column>
+			<mj-column>
+				<mj-image width="107px" src="https://i.ibb.co/Wv4jyqj/indiv-icon.png"></mj-image>
+                <mj-text mj-class="header">Individuals</mj-text>
+                <mj-text align="center">For independant professionals with focus on outdoor and indoor pet care activities</mj-text> 
+                                          
+			</mj-column>
+            
+		</mj-section>
+
+        <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" />
+
+		<mj-section mj-class="sky_section">
+            <mj-column>
+                <mj-image width="90px" src="https://i.ibb.co/XW7KH7q/logo-1.png"></mj-image>
+                <mj-text mj-class="header">CONTACTS</mj-text>
+                <mj-table css-class="contacts">
+                    <tr>
+                        <td><strong>Address:</strong> 44 Nikole Dobrovica st.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Phone:</strong> +381 11 2284 347</td>
+                    </tr>
+                    <tr>
+                        <td><strong>E-mail:</strong> saivastanin@yahoo.com</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Viber:</strong> +381 64 2361 292</td>
+                    </tr>
+                </mj-table>
+            </mj-column>
+		</mj-section>
+		<mj-section mj-class="light_section">
+			<mj-column>
+				<mj-social>
+					<mj-social-element name="instagram" href="#"></mj-social-element>    
+					<mj-social-element name="facebook" href="#"></mj-social-element>
+					<mj-social-element name="linkedin" href="#"></mj-social-element>
+					<mj-social-element name="twitter" href="#"></mj-social-element>      
+					<mj-social-element name="youtube" href="#"></mj-social-element>
+				</mj-social>
+			</mj-column>
+		</mj-section>
+	</mj-body>
+</mjml>
+
