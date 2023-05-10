@@ -35,7 +35,7 @@
         </mj-style>        
 	</mj-head>
 	<mj-body width="600px">
-        <mj-raw>Email template example, Wargaming. Link to .mjml file is <a href="index.mjml" title="mjml file">here</a>.</mj-raw>
+        <mj-raw>Email template example. Link to .mjml file is <a href="index.mjml" title="mjml file">here</a>.</mj-raw>
 		<mj-section mj-class="light_section">
 			<mj-column>
 				<mj-image width="250px" src="https://i.ibb.co/8DTkrxn/logo-inline.png"></mj-image>
