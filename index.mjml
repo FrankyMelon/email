@@ -1,6 +1,6 @@
 <mjml lang="en">
 	<mj-head>
-        <mj-preview>Hello everybody</mj-preview>
+        <mj-preview>Pet House</mj-preview>
         <mj-font name="Roboto"
        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" />
 		<mj-attributes>
@@ -62,8 +62,8 @@
 				<mj-text color="#525252">We are aware that on-call care is not available everywhere, which is why it is possible to call an ambulance within 2 hours by car from 6pm to midnight every day. Our rescue service will bring the animal in need of treatment to our clinic. Could the owner not come with it, their pet can stay with them. Our goal is to soon become a 0-24 hospital and provide a full night ambulance service.</mj-text>
 				<mj-button mj-class="button" href="#">Learn more</mj-button>
 			</mj-column>
-		</mj-section>
-        <mj-divider border-width="0.5px" border-style="dashed" border-color="lightgrey" />
+        </mj-section>
+        
 
 		<mj-section background-color="#fbfbfb">
          
@@ -88,8 +88,6 @@
 			</mj-column>
             
 		</mj-section>
-
-        <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" />
 
 		<mj-section mj-class="sky_section">
             <mj-column>
@@ -124,4 +122,3 @@
 		</mj-section>
 	</mj-body>
 </mjml>
-
