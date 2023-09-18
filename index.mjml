@@ -95,16 +95,16 @@
                 <mj-text mj-class="header">CONTACTS</mj-text>
                 <mj-table css-class="contacts">
                     <tr>
-                        <td><strong>Address:</strong> 44 Nikole Dobrovica st.</td>
+                        <td><strong>Address:</strong> 27 Nikole Petcovic st.</td>
                     </tr>
                     <tr>
-                        <td><strong>Phone:</strong> +381 11 2284 347</td>
+                        <td><strong>Phone:</strong> +381 11 1111 111</td>
                     </tr>
                     <tr>
-                        <td><strong>E-mail:</strong> saivastanin@yahoo.com</td>
+                        <td><strong>E-mail:</strong> saygav@yahoo.com</td>
                     </tr>
                     <tr>
-                        <td><strong>Viber:</strong> +381 64 2361 292</td>
+                        <td><strong>Viber:</strong> +381 11 1111 111</td>
                     </tr>
                 </mj-table>
             </mj-column>
