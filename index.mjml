@@ -1,124 +1,184 @@
-<mjml lang="en">
-	<mj-head>
-        <mj-preview>Pet House</mj-preview>
-        <mj-font name="Roboto"
-       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" />
-		<mj-attributes>
-			<mj-all font-family="Roboto, Calibri" font-size="16px"/>        
-			<mj-text padding="10px 20px"/>
-            <mj-class name="light_section" background-color="#f0f0f0" padding="5px"/>
-            <mj-class name="sky_section" background-color="#dfecf4" />
-            <mj-class name="dark_section" background-color="#444343" />
-            <mj-class name="header" font-style="bold" font-size="20px" align="center" color="#5a5454" padding="0"/>
-            <mj-class name="button" background-color="#fd843f" color="white" font-weight="bold" border-radius="10px" padding="10px"/>
-            <mj-class name="debug" border="1px solid red"/>
-            
-		</mj-attributes>
+<mjml>
+  <mj-head>
+    <mj-preview>Take the survey with BROFIST</mj-preview>
+    <mj-title>Take the survey with BROFIST</mj-title>
+    <mj-attributes>
+      <mj-body></mj-body>
+      <mj-section padding="0px"></mj-section>
+      <mj-column padding="0px" vertical-align="middle"></mj-column>
+      <mj-wrapper padding="0px"></mj-wrapper>
+      <mj-image padding="0" align="center" fluid-on-mobile="true" css-class="img"></mj-image>
+      <mj-text align="center" font-family="verdana" line-height="18px"></mj-text>
+    </mj-attributes>
+    <mj-style>
 
-        <mj-style>
-            .contacts {
-                margin: 10px auto 0 auto;
-                text-align: left;
-                max-width:210px;
-                display:block;
-                font-size:11px;
-                font-style:italic;
-            }
-            .contacts td {
-                padding-top: 10px;
-                font-size:15px;
-            }
-            .contacts td strong{
-                font-style:normal;
-                padding-right:3px;
-            }
-        </mj-style>        
-	</mj-head>
-	<mj-body width="600px">
-        <mj-raw>Email template example. Link to .mjml file is <a href="index.mjml" title="mjml file">here</a>.</mj-raw>
-		<mj-section mj-class="light_section">
-			<mj-column>
-				<mj-image width="250px" src="https://i.ibb.co/8DTkrxn/logo-inline.png"></mj-image>
-			</mj-column>
-			<mj-column>
-				<mj-social>
-					<mj-social-element name="instagram" href="#"></mj-social-element>    
-					<mj-social-element name="facebook" href="#"></mj-social-element>
-					<mj-social-element name="linkedin" href="#"></mj-social-element>
-					<mj-social-element name="twitter" href="#"></mj-social-element>      
-					<mj-social-element name="youtube" href="#"></mj-social-element>
-				</mj-social>
-			</mj-column>
-		</mj-section>    
-        <mj-section mj-class="dark_section">
-            <mj-column>
-                <mj-image src="https://i.ibb.co/pX7nHN0/dream-fa1c8b5fa4.gif"></mj-image>
-                <mj-text align="right" color="white">Come, sit, heal.</mj-text>
-            </mj-column>
-        </mj-section>
-		<mj-section mj-class="sky_section">
-			<mj-column>
-				<mj-text mj-class="header">Introduction</mj-text>
-				<mj-text color="#525252">We are aware that on-call care is not available everywhere, which is why it is possible to call an ambulance within 2 hours by car from 6pm to midnight every day. Our rescue service will bring the animal in need of treatment to our clinic. Could the owner not come with it, their pet can stay with them. Our goal is to soon become a 0-24 hospital and provide a full night ambulance service.</mj-text>
-				<mj-button mj-class="button" href="#">Learn more</mj-button>
-			</mj-column>
-        </mj-section>
-        
+      a { text-decoration: none;}
+      img {max-width:100% !important;}
+      
+      .icon table tbody tr td img {width:auto !important; } 
+      .statistics_TTT table tbody tr td img {width:auto !important; } 
+      .centered_img table tbody tr td {text-align: center !important; max-width:100%;} 
+      .products table {text-align:center; border:1px solid red;} 
+      .products table tbody tr td {padding:5px !important;} 
+      .center table tbody tr td{ text-align: center !important; } 
+      .highlight { padding:0 0 5px 5px; background-image: url('https://raw.githubusercontent.com/FrankyMelon/email_example/main/font_highlight.png'); background-size: cover; background-repeat: no-repeat; background-position-y: 5px; background-position-x: -5px;}
+      
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FFFFFF" width="600px">
+    <!-- HEADER -->
+    <mj-section css-class="width_auto" padding="22px 5%" background-url="https://raw.githubusercontent.com/FrankyMelon/email_example/main/header_bgr.png" background-repeat="no-repeat" background-size="contain">
+      <mj-group>
+        <mj-column width="76%">
+          <mj-raw>
 
-		<mj-section background-color="#fbfbfb">
-         
-			<mj-column>
-				<mj-image width="107px" src="https://i.ibb.co/gMDfqz0/org-icon.png"></mj-image>
-                <mj-text  mj-class="header">Organizations</mj-text>
-                <mj-text align="center">For pet care service providers with multiple business locations and distributed teams</mj-text>
-                 
-			</mj-column>
-			<mj-column>
-            
-				<mj-image width="107px" src="https://i.ibb.co/C121m24/business-icon.png"></mj-image>
-                <mj-text mj-class="header">Businesses</mj-text>
-                <mj-text align="center">Professional services with location, multiple categories and small teams</mj-text>
-                 
-			</mj-column>
-			<mj-column>
-				<mj-image width="107px" src="https://i.ibb.co/Wv4jyqj/indiv-icon.png"></mj-image>
-                <mj-text mj-class="header">Individuals</mj-text>
-                <mj-text align="center">For independant professionals with focus on outdoor and indoor pet care activities</mj-text> 
-                                          
-			</mj-column>
-            
-		</mj-section>
+            <a href="https://brofist.partners/" title="Visit Brofist site" aria-label="Link to Brofist site"><img width="168px" align="left" alt="Brofist logo" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/brofist_logo.png" /></a>
+          </mj-raw>
+          </mj-image>
+        </mj-column>
+        <mj-column width="12%">
+          <mj-raw>
+            <a href="https://join.skype.com/invite/BQyqFGHExgjx" title="Invite to Skype chat" aria-label="Invite to Skype chat"><img width="43px" alt="Skype icon" style="padding-right: 40px;" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/skype.png" /></a>
+          </mj-raw>
+        </mj-column>
+        <mj-column width="12%">
+          <mj-raw>
+            <a href="https://t.me/Alina_Brofist" title="Invite to Telegram chat" aria-label="Invite to Telegram chat"><img width="43px" alt="Telegram icon" style="padding: 0 32px 0 10px;" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/Telegram.png" /></a>
+          </mj-raw>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- PERSONALIZED -->
+    <mj-section padding="0 48px">
+      <mj-column>
+        <mj-spacer height="50px"></mj-spacer>
+        <mj-image title="Your personalized and 500 EUR to the first payout is almost here. Just take a survey. Get it" alt="Your personalized and 500 EUR to the first payout is almost here. Just take a survey. Get it" href="https://brofistpartners.com/kviz" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/personalized_bgr.png" />
+      </mj-column>
+    </mj-section>
+    <!-- TEXT -->
+    <mj-section padding="36px 0 35px 0">
+      <mj-column>
+        <mj-text font-weight="bold" font-size="28px" line-height="28px">Do you want to know more?</mj-text>
+        <mj-text font-size="14px" letter-spacing="0.5px" padding="19px 18% 0 18%">The one who clicks the button gets such results in just 14 days:</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- STATISTICS -->
+  
+  <!-- Part 1 -->
+    <mj-section padding="36px 0 0 0">
+      <mj-group>
+        <mj-column vertical-align="top" width="6%">
+          <mj-raw>
+            <img aria-hidden="true" width="28px" style="padding:0 6px 0 0;" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/bgr_cubes_LT.png" />
+          </mj-raw>
+        </mj-column>
+        <mj-column css-class="centered_img" width="88%">
+          <mj-raw>
+            <img alt="Images describes statistics and reports in table view" style="text-align:center; padding:30px 5px 0 5px;" width="469px" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/statistics.png" />
+          </mj-raw>
+          <mj-text>It can still be yours! <span class="highlight">Just take the survey.</span></mj-text>
+        </mj-column>
+        <mj-column vertical-align="top" width="6%">
+          <mj-raw>
+            <img aria-hidden="true" width="28px" style="padding:0 0 0 6px ;" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/bgr_cubes_RT.png" />
+          </mj-raw>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+  
+<!-- Part 2 -->  
+    <mj-section padding="22px 0 0 0">
+      <mj-group>
+        <mj-column vertical-align="bottom" width="6%">
+          <mj-raw>
+            <img aria-hidden="true" width="28px" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/bgr_cubes_LT.png" />
+          </mj-raw>
+        </mj-column>
+     <mj-column css-class="centered_img" width="88%">
+        <mj-raw>
+          <a href="https://brofistpartners.com/kviz" title="Take the survey button" aria-label="Take the survey button"><img alt="Take the survey button" width="198px" style="padding-bottom:30px; text-align:center;" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/take_survey.png" /></a>
+        </mj-raw>
 
-		<mj-section mj-class="sky_section">
-            <mj-column>
-                <mj-image width="90px" src="https://i.ibb.co/XW7KH7q/logo-1.png"></mj-image>
-                <mj-text mj-class="header">CONTACTS</mj-text>
-                <mj-table css-class="contacts">
-                    <tr>
-                        <td><strong>Address:</strong> 27 Nikole Petcovic st.</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Phone:</strong> +381 11 1111 111</td>
-                    </tr>
-                    <tr>
-                        <td><strong>E-mail:</strong> saygav@yahoo.com</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Viber:</strong> +381 11 1111 111</td>
-                    </tr>
-                </mj-table>
-            </mj-column>
-		</mj-section>
-		<mj-section mj-class="light_section">
-			<mj-column>
-				<mj-social>
-					<mj-social-element name="instagram" href="#"></mj-social-element>    
-					<mj-social-element name="facebook" href="#"></mj-social-element>
-					<mj-social-element name="linkedin" href="#"></mj-social-element>
-					<mj-social-element name="twitter" href="#"></mj-social-element>      
-					<mj-social-element name="youtube" href="#"></mj-social-element>
-				</mj-social>
-			</mj-column>
-		</mj-section>
-	</mj-body>
+      </mj-column>
+        <mj-column vertical-align="bottom" width="6%">
+          <mj-raw>
+            <img aria-hidden="true" width="28px" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/bgr_cubes_RT.png" />
+          </mj-raw>
+        </mj-column>
+        </mj-group>
+    </mj-section>
+    <!-- By the way-->
+    <mj-section padding="35px 0 0 0" css-class="PRODUCTS_section">
+      <mj-column css-class="PRODUCTS_column">
+        <mj-text font-size="20px" font-weight="bold" padding-bottom="7px">By the way, </mj-text>
+        <mj-text font-size="20px" font-weight="bold" padding-top="7px"> here are our three products: </mj-text>
+      </mj-column>
+    </mj-section>
+  
+  <!-- PRODUCTS-->
+    <mj-section padding="81px 0 0 0 ">
+      <mj-column css-class="products">
+        <mj-raw>
+          <img alt="Dazard casino icon" width="127px" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/dazard.png" />
+        </mj-raw>
+      </mj-column>
+      <mj-column css-class="products">
+        <mj-raw>
+          <img alt="Millionaria casino icon" width="127px" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/millionaria.png" />
+        </mj-raw>
+      </mj-column>
+      <mj-column css-class="products">
+        <mj-raw>
+          <img alt="Billy Billion icon" width="127px" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/billy_billion.png" />
+        </mj-raw>
+      </mj-column>
+    </mj-section>
+  
+  <!-- Conversion up -->
+    <mj-section padding="16px 0 0 0">
+      <mj-column>
+        <mj-text padding="10px 0 6px 0">Conversion up <span class="highlight">to 70%</span></mj-text>
+        <mj-text padding="0"><span class="highlight">Avalible to</span> CH, AU, AT, DK, IE </mj-text>
+        <mj-spacer height="40px" />
+      </mj-column>
+    </mj-section>
+  
+    <!--FOOTER-->
+  
+<mj-section padding="56px 0">
+      <mj-group>
+        <mj-column vertical-align="middle" width="10%">
+          <mj-raw>
+            <img aria-hidden="true" width="58px" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/footer_l.png" />
+          </mj-raw>
+        </mj-column>
+     <mj-column css-class="centered_img" width="80%">
+        <mj-raw>
+          <a href="https://brofist.partners/" title="Visit Brofist site" aria-label="Link to Brofist site"><img alt="Brofit logo" width="127px" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/brofist_logo.png" /></a>
+        </mj-raw>
+      </mj-column>
+        <mj-column vertical-align="middle" width="10%">
+          <mj-raw>
+            <img aria-hidden="true" width="58px" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/footer_r.png" />
+          </mj-raw>
+        </mj-column>
+        </mj-group>
+    </mj-section>  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <!--mj-section css-class="width_auto" padding="56px 0" background-url="https://raw.githubusercontent.com/FrankyMelon/email_example/main/footer.png" background-repeat="no-repeat" background-size="contain" background-color="#FFFFFF" background-position="center center">
+      <mj-column css-class="center">
+        <mj-raw>
+          <a href="https://brofist.partners/" title="Visit Brofist site" aria-label="Link to Brofist site"><img alt="Brofit logo" width="127px" src="https://raw.githubusercontent.com/FrankyMelon/email_example/main/brofist_logo.png" /></a>
+        </mj-raw>
+      </mj-column>
+    </mj-section-->
+  </mj-body>
 </mjml>
